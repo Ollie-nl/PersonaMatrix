@@ -4,31 +4,31 @@ Hieronder staat een heldere uitleg van de architectuur die gebruikt wordt in de 
 
 ## Structuur en Terminologie
 
-### 📁 `group`
+### 📁 group
 Het hoogste niveau, bevat een bredere verzameling van verwante kenmerken of thema's.
 - **Voorbeeld:** "Demografisch & Cultureel".
 
-### 📋 `category`
+### 📋 category
 Elke groep bevat specifieke categorieën. Een categorie representeert één kenmerk of attribuut waarop gebruikers of doelgroepen worden beoordeeld.
 - **Voorbeeld:** "Leeftijd", "Genderidentiteit", "Seksuele oriëntatie".
 
-### 🆔 `id`
+### 🆔 id
 Deze id is een unieke identifier voor de categorie.
 - **Voorbeeld:** "leeftijd".
 
-### 💬`label`
+### 💬 label
 Deze label is een duidelijke korte beschrijving van de categorie.
 - **Voorbeeld:** "Leeftijd van een inwoner".
 
-### 📐 `scale`
+### 📐 scale
 Binnen een categorie worden meetbare niveaus of scores (zoals 1 tot 5) gedefinieerd. Dit toont in hoeverre een eigenschap aanwezig is.
 - **Voorbeeld:** schaal 1 (laag) tot 5 (hoog).
 
-### 🏷️ `title`
+### 🏷️ title
 Een kort, duidelijk trefwoord dat elk niveau binnen de schaal omschrijft, bedoeld voor snelle herkenning en duidelijkheid.
 - **Voorbeeld:** "Zeer jong", "Jongvolwcategorye", "Middelbare leeftijd", "Oudere volwcategorye", "Senior".
 
-### 📝 `description`
+### 📝 description
 Een uitgebreide toelichting die gedetailleerd aangeeft wat elk niveau betekent. Dit is handig voor documentatie, uitleg en communicatie met stakeholders.
 - **Voorbeeld:** "Zeer jong (kind/jongere)", "Jongvolwcategorye", "Middelbare leeftijd", "Oudere volwcategorye", "Senior (pensioenleeftijd)".
 
