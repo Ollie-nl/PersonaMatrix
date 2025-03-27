@@ -12,11 +12,11 @@ Het hoogste niveau, bevat een bredere verzameling van verwante kenmerken of them
 Elke groep bevat specifieke categorieën. Een categorie representeert één kenmerk of attribuut waarop gebruikers of doelgroepen worden beoordeeld.
 - **Voorbeeld:** "Leeftijd", "Genderidentiteit", "Seksuele oriëntatie".
 
-### `id`
+### 🆔 `id`
 Deze id is een unieke identifier voor de categorie.
 - **Voorbeeld:** "leeftijd".
 
-### `label`
+### 💬`label`
 Deze label is een duidelijke korte beschrijving van de categorie.
 - **Voorbeeld:** "Leeftijd van een inwoner".
 
