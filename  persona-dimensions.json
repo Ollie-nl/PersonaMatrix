@@ -1,0 +1,368 @@
+[
+  {
+    "group": "Demografisch & Cultureel",
+    "category": [
+      {
+        "id": "leeftijd",
+        "label": "Leeftijd",
+        "scale": {
+          "1": {"title": "Zeer jong", "description": "Zeer jong (kind/jongere)"},
+          "2": {"title": "Jongvolwcategorye", "description": "Jongvolwcategorye"},
+          "3": {"title": "Middelbare leeftijd", "description": "Middelbare leeftijd"},
+          "4": {"title": "Oudere volwcategorye", "description": "Oudere volwcategorye"},
+          "5": {"title": "Senior", "description": "Senior (pensioenleeftijd)"}
+        }
+      },
+      {
+        "id": "genderidentiteit",
+        "label": "Genderidentiteit",
+        "scale": {
+          "1": {"title": "Man", "description": "Man"},
+          "2": {"title": "Voornamelijk man", "description": "Voornamelijk mannelijke genderidentiteit"},
+          "3": {"title": "Non-binair", "description": "Non-binair/genderqueer"},
+          "4": {"title": "Voornamelijk vrouw", "description": "Voornamelijk vrouwelijke genderidentiteit"},
+          "5": {"title": "Vrouw", "description": "Vrouw"}
+        }
+      },
+      {
+        "id": "seksuele_orientatie",
+        "label": "Seksuele oriëntatie",
+        "scale": {
+          "1": {"title": "Heteroseksueel", "description": "Heteroseksueel"},
+          "2": {"title": "Overwegend hetero", "description": "Overwegend hetero"},
+          "3": {"title": "Biseksueel", "description": "Biseksueel/panseksueel"},
+          "4": {"title": "Overwegend homoseksueel", "description": "Overwegend homoseksueel"},
+          "5": {"title": "Homoseksueel", "description": "Homoseksueel/lesbisch"}
+        }
+      },
+      {
+        "id": "etniciteit_culturele_achtergrond",
+        "label": "Etniciteit/culturele achtergrond",
+        "scale": {
+          "1": {"title": "Autochtoon", "description": "Autochtone meerderheidscultuur"},
+          "2": {"title": "Tweede generatie", "description": "Tweede generatie migratieachtergrond"},
+          "3": {"title": "Bicultureel", "description": "Bicultureel gemengd"},
+          "4": {"title": "Eerstegeneratie geïntegreerd", "description": "Eerstegeneratie immigrant (geïntegreerd)"},
+          "5": {"title": "Recent nieuwkomer", "description": "Recent nieuwkomer (weinig integratie)"}
+        }
+      },
+      {
+        "id": "religie_levensovertuiging",
+        "label": "Religie/levensovertuiging",
+        "scale": {
+          "1": {"title": "Seculier", "description": "Geen religie (seculier)"},
+          "2": {"title": "Licht religieus", "description": "Licht religieus/spiritueel"},
+          "3": {"title": "Matig religieus", "description": "Matig religieus"},
+          "4": {"title": "Sterk religieus", "description": "Sterk religieus"},
+          "5": {"title": "Orthodox", "description": "Orthodox/zeer devoot"}
+        }
+      }
+    ]
+  },
+  {
+    "group": "Sociaal-economisch & Leefsituatie",
+    "category": [
+      {
+        "id": "onderwijsniveau",
+        "label": "Onderwijsniveau",
+        "scale": {
+          "1": {"title": "Geen scholing", "description": "Geen formele scholing"},
+          "2": {"title": "Laag", "description": "Laag (basisonderwijs)"},
+          "3": {"title": "Middelbaar", "description": "Middelbaar onderwijs"},
+          "4": {"title": "Hoger onderwijs", "description": "Hoger onderwijs (HBO)"},
+          "5": {"title": "Universitair", "description": "Universitair niveau"}
+        }
+      },
+      {
+        "id": "inkomen_status",
+        "label": "Inkomen/sociaal-economische status",
+        "scale": {
+          "1": {"title": "Onder minimum", "description": "Onder bestaansminimum"},
+          "2": {"title": "Laag inkomen", "description": "Laag inkomen"},
+          "3": {"title": "Gemiddeld", "description": "Gemiddeld inkomen"},
+          "4": {"title": "Bovenmodaal", "description": "Bovenmodaal inkomen"},
+          "5": {"title": "Hoog", "description": "Hoog inkomen/welvarend"}
+        }
+      },
+      {
+        "id": "werkstatus",
+        "label": "Werkstatus",
+        "scale": {
+          "1": {"title": "Werkloos", "description": "Werkloos"},
+          "2": {"title": "Onzeker werk", "description": "Onzeker/tijdelijk werk"},
+          "3": {"title": "Deeltijd", "description": "Deeltijd werk"},
+          "4": {"title": "Voltijds", "description": "Voltijds vast werk"},
+          "5": {"title": "Senior functie", "description": "Senior/leidinggevende functie"}
+        }
+      },
+      {
+        "id": "woonsituatie",
+        "label": "Woonsituatie",
+        "scale": {
+          "1": {"title": "Dakloos", "description": "Dakloos/onzeker"},
+          "2": {"title": "Tijdelijk onderdak", "description": "Tijdelijk onderdak"},
+          "3": {"title": "Stabiele huurwoning", "description": "Stabiele huurwoning"},
+          "4": {"title": "Eigen woning", "description": "Eigen woning"},
+          "5": {"title": "Ruime woning", "description": "Ruime/luxe woning"}
+        }
+      },
+      {
+        "id": "woonomgeving",
+        "label": "Woonomgeving",
+        "scale": {
+          "1": {"title": "Afgelegen platteland", "description": "Zeer afgelegen platteland"},
+          "2": {"title": "Plattelandsdorp", "description": "Plattelandsdorp"},
+          "3": {"title": "Kleine stad", "description": "Kleine stad/voorstad"},
+          "4": {"title": "Stad", "description": "Stad"},
+          "5": {"title": "Grootstedelijk", "description": "Grootstedelijk centrum"}
+        }
+      },
+      {
+        "id": "huishoudsamenstelling",
+        "label": "Huishoudsamenstelling",
+        "scale": {
+          "1": {"title": "Alleenstaand", "description": "Alleenstaand"},
+          "2": {"title": "Koppel zonder kinderen", "description": "Koppel zonder kinderen"},
+          "3": {"title": "Gezin 1-2 kinderen", "description": "Gezin met 1–2 kinderen"},
+          "4": {"title": "Gezin 3+ kinderen", "description": "Gezin met 3+ kinderen"},
+          "5": {"title": "Uitgebreide familie", "description": "Uitgebreide familiehuishouding"}
+        }
+      },
+      {
+        "id": "mantelzorg",
+        "label": "Mantelzorg/verantwoordelijkheden",
+        "scale": {
+          "1": {"title": "Geen zorgtaken", "description": "Geen zorgtaken"},
+          "2": {"title": "Lichte ondersteuning", "description": "Lichte ondersteuning ander"},
+          "3": {"title": "Regelmatige mantelzorg", "description": "Regelmatige mantelzorg"},
+          "4": {"title": "Intensieve mantelzorg", "description": "Intensieve mantelzorg"},
+          "5": {"title": "24/7 zorg", "description": "24/7 zorg voor afhankelijke(n)"}
+        }
+      }
+    ]
+  },
+  {
+    "group": "Vaardigheden & Toegang",
+    "category": [
+      {
+        "id": "taalvaardigheid_nl",
+        "label": "Taalvaardigheid (Nederlands)",
+        "scale": {
+          "1": {"title": "Geen NL", "description": "Spreekt geen Nederlands"},
+          "2": {"title": "Beperkt", "description": "Beperkte beheersing"},
+          "3": {"title": "Redelijk", "description": "Redelijke beheersing"},
+          "4": {"title": "Vloeiend", "description": "Vloeiend"},
+          "5": {"title": "Moedertaal", "description": "Moedertaalspreker"}
+        }
+      },
+      {
+        "id": "geletterdheid",
+        "label": "Geletterdheid",
+        "scale": {
+          "1": {"title": "Laaggeletterd", "description": "Analfabeet/laaggeletterd"},
+          "2": {"title": "Zeer beperkt", "description": "Zeer beperkte geletterdheid"},
+          "3": {"title": "Basis", "description": "Basis geletterdheid"},
+          "4": {"title": "Goed", "description": "Goed geletterd"},
+          "5": {"title": "Hoog", "description": "Hoog geletterd"}
+        }
+      },
+      {
+        "id": "digitale_vaardigheid",
+        "label": "Digitale vaardigheid",
+        "scale": {
+          "1": {"title": "Geen", "description": "Digitaal onvaardig"},
+          "2": {"title": "Basis", "description": "Basis digitale vaardigheden"},
+          "3": {"title": "Gemiddeld", "description": "Gemiddelde vaardigheden"},
+          "4": {"title": "Goed", "description": "Vaardig met standaard technologie"},
+          "5": {"title": "Expert", "description": "Expert digitaal vaardig"}
+        }
+      },
+      {
+        "id": "toegang_technologie",
+        "label": "Toegang tot technologie",
+        "scale": {
+          "1": {"title": "Geen toegang", "description": "Geen toegang (geen internet/apparaat)"},
+          "2": {"title": "Beperkt", "description": "Beperkte toegang"},
+          "3": {"title": "Basis", "description": "Basis toegang (bijv. smartphone)"},
+          "4": {"title": "Goed", "description": "Goede toegang (smartphone + computer)"},
+          "5": {"title": "Volledig", "description": "Volledige toegang (meerdere apparaten, snel internet)"}
+        }
+      }
+    ]
+  },
+  {
+    "group": "Gezondheid & Toegankelijkheid",
+    "category": [
+      {
+        "id": "fysieke_mobiliteit",
+        "label": "Fysieke mobiliteit",
+        "scale": {
+          "1": {"title": "Geen beperking", "description": "Geen beperking"},
+          "2": {"title": "Lichte beperking", "description": "Lichte beperking"},
+          "3": {"title": "Matige beperking", "description": "Matige beperking"},
+          "4": {"title": "Ernstige beperking", "description": "Ernstige beperking (rolstoel nodig)"},
+          "5": {"title": "Zeer ernstige beperking", "description": "Zeer ernstige beperking (bedlegerig)"}
+        }
+      },
+      {
+        "id": "blindheid",
+        "label": "Blindheid",
+        "scale": {
+          "1": {"title": "Niet blind", "description": "Niet blind"},
+          "2": {"title": "Zeer beperkt zicht", "description": "Zeer beperkt zicht"},
+          "3": {"title": "Slechtziend", "description": "Slechtziend"},
+          "4": {"title": "Zeer slechtziend", "description": "Zeer slechtziend"},
+          "5": {"title": "Volledig blind", "description": "Volledig blind"}
+        }
+      },
+      {
+        "id": "doofheid",
+        "label": "Doofheid",
+        "scale": {
+          "1": {"title": "Niet doof", "description": "Niet doof"},
+          "2": {"title": "Zeer beperkt gehoor", "description": "Zeer beperkt gehoor"},
+          "3": {"title": "Slechthorend", "description": "Slechthorend"},
+          "4": {"title": "Zeer slechthorend", "description": "Zeer slechthorend"},
+          "5": {"title": "Volledig doof", "description": "Volledig doof"}
+        }
+      },
+      {
+        "id": "cognitief_vermogen",
+        "label": "Cognitief vermogen",
+        "scale": {
+          "1": {"title": "Geen beperking", "description": "Geen cognitieve beperking"},
+          "2": {"title": "Lichte beperking", "description": "Lichte beperking"},
+          "3": {"title": "Matige beperking", "description": "Matige beperking"},
+          "4": {"title": "Ernstige beperking", "description": "Ernstige beperking"},
+          "5": {"title": "Zeer ernstig", "description": "Zeer ernstige verstandelijke beperking"}
+        }
+      },
+      {
+        "id": "geestelijke_gezondheid",
+        "label": "Geestelijke gezondheid",
+        "scale": {
+          "1": {"title": "Uitstekend", "description": "Uitstekend"},
+          "2": {"title": "Lichte klachten", "description": "Lichte klachten"},
+          "3": {"title": "Matige klachten", "description": "Matige klachten"},
+          "4": {"title": "Ernstige problemen", "description": "Ernstige problemen"},
+          "5": {"title": "Zeer ernstig", "description": "Zeer ernstige mentale problemen"}
+        }
+      },
+      {
+        "id": "energieniveau",
+        "label": "Energieniveau",
+        "scale": {
+          "1": {"title": "Zeer laag", "description": "Chronisch zeer laag"},
+          "2": {"title": "Laag", "description": "Laag"},
+          "3": {"title": "Gemiddeld", "description": "Gemiddeld"},
+          "4": {"title": "Hoog", "description": "Hoog"},
+          "5": {"title": "Zeer hoog", "description": "Zeer hoog"}
+        }
+      }
+    ]
+  },
+  {
+    "group": "Attitude & Ervaring",
+    "category": [
+      {
+        "id": "vertrouwen_overheid",
+        "label": "Vertrouwen in overheid",
+        "scale": {
+          "1": {"title": "Volledig wantrouwen", "description": "Volledig wantrouwen"},
+          "2": {"title": "Laag vertrouwen", "description": "Laag vertrouwen"},
+          "3": {"title": "Neutraal", "description": "Neutraal"},
+          "4": {"title": "Hoog vertrouwen", "description": "Hoog vertrouwen"},
+          "5": {"title": "Volledig vertrouwen", "description": "Volledig vertrouwen"}
+        }
+      },
+      {
+        "id": "vertrouwen_technologie",
+        "label": "Vertrouwen in technologie",
+        "scale": {
+          "1": {"title": "Sterk wantrouwen", "description": "Sterk wantrouwen"},
+          "2": {"title": "Beperkt vertrouwen", "description": "Beperkt vertrouwen"},
+          "3": {"title": "Neutraal", "description": "Neutraal"},
+          "4": {"title": "Hoog vertrouwen", "description": "Hoog vertrouwen"},
+          "5": {"title": "Volledig vertrouwen", "description": "Volledig vertrouwen"}
+        }
+      },
+      {
+        "id": "ervaring_diensten",
+        "label": "Ervaring met diensten",
+        "scale": {
+          "1": {"title": "Geen ervaring", "description": "Geen ervaring"},
+          "2": {"title": "Weinig ervaring", "description": "Weinig ervaring"},
+          "3": {"title": "Enige ervaring", "description": "Enige ervaring"},
+          "4": {"title": "Ruime ervaring", "description": "Ruime ervaring"},
+          "5": {"title": "Zeer veel ervaring", "description": "Zeer veel ervaring"}
+        }
+      },
+      {
+        "id": "tijdbeschikbaarheid",
+        "label": "Tijdbeschikbaarheid",
+        "scale": {
+          "1": {"title": "Geen vrije tijd", "description": "Geen vrije tijd"},
+          "2": {"title": "Zeer weinig", "description": "Zeer weinig"},
+          "3": {"title": "Beperkt", "description": "Beperkt"},
+          "4": {"title": "Voldoende", "description": "Voldoende"},
+          "5": {"title": "Ruime tijd", "description": "Ruime tijd"}
+        }
+      },
+      {
+        "id": "complexiteitsdrempel",
+        "label": "Complexiteitsdrempel",
+        "scale": {
+          "1": {"title": "Hoge complexiteit", "description": "Hoge complexiteit aanvaardbaar"},
+          "2": {"title": "Redelijke complexiteit", "description": "Redelijke complexiteit mogelijk"},
+          "3": {"title": "Gemiddeld", "description": "Gemiddelde complexiteit"},
+          "4": {"title": "Eenvoudig gewenst", "description": "Liever eenvoudige processen"},
+          "5": {"title": "Enkel eenvoudig", "description": "Enkel eenvoudige processen mogelijk"}
+        }
+      },
+      {
+        "id": "communicatievoorkeur",
+        "label": "Communicatievoorkeur",
+        "scale": {
+          "1": {"title": "Fysiek", "description": "Uitsluitend fysiek/papier"},
+          "2": {"title": "Voorkeur fysiek", "description": "Voorkeur voor persoonlijk contact"},
+          "3": {"title": "Geen voorkeur", "description": "Geen sterke voorkeur"},
+          "4": {"title": "Voorkeur digitaal", "description": "Voorkeur voor digitaal"},
+          "5": {"title": "Digitaal", "description": "Uitsluitend digitaal"}
+        }
+      },
+      {
+        "id": "sociaal_netwerk",
+        "label": "Sociaal netwerk/steun",
+        "scale": {
+          "1": {"title": "Geen netwerk", "description": "Geen netwerk/steun"},
+          "2": {"title": "Beperkt netwerk", "description": "Klein beperkt netwerk"},
+          "3": {"title": "Enig netwerk", "description": "Enig netwerk"},
+          "4": {"title": "Groot netwerk", "description": "Groot sociaal netwerk"},
+          "5": {"title": "Zeer groot netwerk", "description": "Zeer groot/actief netwerk"}
+        }
+      },
+      {
+        "id": "zelfvertrouwen",
+        "label": "Zelfvertrouwen",
+        "scale": {
+          "1": {"title": "Zeer laag", "description": "Zeer laag zelfvertrouwen (afhankelijk)"},
+          "2": {"title": "Laag", "description": "Laag zelfvertrouwen"},
+          "3": {"title": "Gemiddeld", "description": "Gemiddeld zelfvertrouwen"},
+          "4": {"title": "Hoog", "description": "Hoog zelfvertrouwen"},
+          "5": {"title": "Zeer hoog", "description": "Zeer hoog (zeer zelfstandig)"}
+        }
+      },
+      {
+        "id": "kennis_diensten",
+        "label": "Kennis van diensten",
+        "scale": {
+          "1": {"title": "Geen kennis", "description": "Geen kennis van rechten/diensten"},
+          "2": {"title": "Beperkte kennis", "description": "Beperkte kennis"},
+          "3": {"title": "Enige kennis", "description": "Enige kennis"},
+          "4": {"title": "Goede kennis", "description": "Goede kennis"},
+          "5": {"title": "Zeer goed geïnformeerd", "description": "Zeer goed geïnformeerd"}
+        }
+      }
+    ]
+  }
+]
