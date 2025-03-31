@@ -7,7 +7,7 @@
         "label": "Leeftijd",
         "scale": {
           "1": {"title": "Zeer jong", "description": "Zeer jong (kind/jongere)"},
-          "2": {"title": "Jongvolwcategorye", "description": "Jongvolwcategorye"},
+          "2": {"title": "Jongvolwasen", "description": "Jongvolwasen"},
           "3": {"title": "Middelbare leeftijd", "description": "Middelbare leeftijd"},
           "4": {"title": "Oudere volwcategorye", "description": "Oudere volwcategorye"},
           "5": {"title": "Senior", "description": "Senior (pensioenleeftijd)"}
